@@ -1,4 +1,4 @@
-# mRemoteNG RCE via Malicious Connection File
+# mRemoteNG RCE via Malicious Connection File (<=1.78.2)
 
 An attacker delivers a crafted .mrng connections file — via phishing, a shared team connections store, or a compromised SQL backend. The victim opens the file in mRemoteNG and double-clicks the connection entry. On installations where Reconnect to previously opened sessions is enabled (OpenConsFromLastSession = true), no click is required — the connection fires automatically on file load.
 
